@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>nikoruchen.me</title>
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
   <style type="text/css">
@@ -15,38 +11,44 @@
   		margin-left:20px;
   		margin-right: 20px;
   	}
+    .English {
+      font-size: 50px;
+      color: blue;
+    }
+    .Japanese {
+      font-size: 35px;
+      color: red;
+    }
+    .Chinese {
+      font-size: 68px;
+      color: orange;
+      font-family: "STKaiti", Arial;
+    }
+    .Spanish {
+      font-size: 43px;
+      color: green;
+      font-style: italic;
+    }
+    .French {
+      font-size: 32px;
+      color: pink;
+      font-weight: bold;
+    }
+    .Korean {
+      font-size: 56px;
+      color: black;
+    }
   </style>
 
   <body>
-    <body>
-    	<div class = "container-fluid">
-    		<div id = "info">
-    			<div id="right" class = "col-xs-3">
-    				      <img src="web.gif" alt="A photo of Nicole">
-    			</div>
-
-    			<div id ="left" class = "col-xs-9">
-    				<h1>Hello!</h1>
-    				<h4>
-    					Let's get in touch!
-    				</h4>
-    			</div>
-    		</div>
-    		<div id = "message" class = "col-xs-12">
-    		<form>
-    			<h3></h3>
-    			<div class = "form-group">
-    				<label>Your email</label>
-    				<input type="email" class = "form-control" placeholder="Enter your email here" required>
-    			</div>
-    			<div class = "form-group">
-    				<label>Your message</label>
-    				<input type="text" class = "form-control" placeholder="Tell me what you think" required>
-    			</div>
-    			<button type = "submit" class = "btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
-    		</form>
-    		</div>
-    	</div>
-    </body>
+    <div id="right" class = "col-xs-3">
+            <img src="web.gif" alt="spider web">
+    </div>
+    <div lang = "en" class = "English">Hello!</div>
+    <div lang = "ja" class = "Japanese">こんにちは!</div>
+    <div lang = "zh" class = "Chinese">你好!</div>
+    <div lang = "es" class = "Spanish">hola!</div>
+    <div lang = "fr" class = "French">Bonjour!</div>
+    <div lang = "ko" class = "Korean">안녕!</div>
   </body>
 </html>
