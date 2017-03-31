@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+<!--adpted from http://freecodecamp.com  -->
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>nikoruchen.me</title>
-  </head>
+
 
   <style type="text/css">
   	body{
   		margin-top: 30px;
   		margin-left:20px;
   		margin-right: 20px;
+      background: #F3F9E1;
   	}
     .English {
       font-size: 50px;
@@ -38,17 +40,47 @@
       font-size: 56px;
       color: black;
     }
+
+    #message {
+      padding-top: 200px;
+      color: #013315;
+    }
+    label {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-family:fantasy;
+      font-size: 40px;
+    }
   </style>
 
   <body>
-    <div id="right" class = "col-xs-3">
-            <img src="web.gif" alt="spider web">
-    </div>
-    <div lang = "en" class = "English">Hello!</div>
-    <div lang = "ja" class = "Japanese">こんにちは!</div>
-    <div lang = "zh" class = "Chinese">你好!</div>
-    <div lang = "es" class = "Spanish">hola!</div>
-    <div lang = "fr" class = "French">Bonjour!</div>
-    <div lang = "ko" class = "Korean">안녕!</div>
+    <div id="banner" align="middle">
+            <img src="welcome.gif" alt="welcome banner">
+    </div >
+      <div align = "middle">
+      <span lang = "en" class = "English">Hello!</span>
+      <span lang = "ja" class = "Japanese">こんにちは!</span>
+      <span lang = "zh" class = "Chinese">你好!</span>
+      <span lang = "es" class = "Spanish">hola!</span>
+      <span lang = "fr" class = "French">Bonjour!</span>
+      <span lang = "ko" class = "Korean">안녕!</span>
+  </div>
+
+  <div id = "message" align = "middle">
+		<form>
+			<h2>What language do you speak?</h2>
+			<div>
+				<label>Your name</label>
+				<input type="email" class = "form-control" placeholder="Enter your name here" required>
+			</div>
+			<div>
+				<label>Your language</label>
+				<input type="text" placeholder="Enter your language here" required>
+			</div>
+			<button type = "submit" >Submit</button>
+		</form>
+		</div>
   </body>
 </html>
